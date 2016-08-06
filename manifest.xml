@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RenoiseScriptingTool doc_version="0">
+  <ApiVersion>5</ApiVersion>
+  <Id>toimp.ryrun.MidifighterButtons</Id>
+  <Version>0.1</Version>
+  <Author>toimp</Author>
+  <Name>Set Midifighter Button Leds</Name>
+  <Category>Tools</Category>
+  <Description>Set the button leds for the current selected instrument.</Description>
+  <Homepage>http://github.com/ryrun/Midifighter-Buttons</Homepage>
+</RenoiseScriptingTool>
