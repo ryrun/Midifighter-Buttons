@@ -47,3 +47,7 @@ renoise.tool():add_menu_entry {
   invoke = function() set_midifighter_buttons() end
 }
 
+renoise.tool():add_keybinding {
+   name = "Global:Midifighter:Set button leds ...",
+   invoke = function() set_midifighter_buttons() end
+}
