@@ -16,8 +16,8 @@ Use mute groups to color the leds. For drum you can use mute group 1
 which will be colored blue.
 
 When you are done, then just send the current mapping to the midi
-fighter via Mainmenu->Tools->Midifighter button leds ...  You can also
-create a keyboardshortcut for it.
+fighter via Mainmenu->Tools->Set midifighter button leds ...  You can also
+create a keyboard shortcut for it.
 
 Please note, the global octave have impact on the incoming midi notes
 and it should be set to 5.
