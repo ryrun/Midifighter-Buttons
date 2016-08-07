@@ -28,12 +28,12 @@ function set_midifighter_buttons()
         if samplemappings[i].sample.mute_group>0 then
           out:send {
             noteon+2, 
-            samplemappings[i].base_note-12,
+            samplemappings[i].base_note-((renoise.song().transport.octave-4)*12),
             colortable[samplemappings[i].sample.mute_group]
           }
          out:send {
             noteon+3, 
-            samplemappings[i].base_note-12,
+            samplemappings[i].base_note-((renoise.song().transport.octave-4)*12),
             33
          }
         end
