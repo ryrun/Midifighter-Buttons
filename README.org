@@ -2,22 +2,23 @@
 
 * 1. What is it
 
-Its a simple renoise tool to setup the button leds of the midifighter
+Its a simple renoise tool to setup the button led of the midifighter
 3d device. It uses the sample mappings of the current selected
-instrument and activates the leds on the corresponding buttons. It uses
-the mute groups of the sample mapping to determine the color for the
-button. So mappings with the same mute group will have the same color.
+instrument and activates the led via midi note on events for the
+corresponding buttons. It uses the mute groups of the sample mapping
+to determine the color for the button. So mappings with the same mute
+group will have the same color.
 
 * 2. How to use it
 
 The first sample mapping should start at C4. Just map each sample you
 want to play to one of the notes, that the midi fighter can trigger.
-Use mute groups to color the leds. For drum you can use mute group 1
+Use mute groups to color the led. For drum you can use mute group 1
 which will be colored blue.
 
 When you are done, then just send the current mapping to the midi
-fighter via Mainmenu->Tools->Set midifighter button leds ...  You can also
-create a keyboard shortcut for it.
+fighter via "Mainmenu->Tools->Set midifighter button led ...". xYou can
+also create a keyboard shortcut for it.
 
 Please note, the global octave have impact on the incoming midi notes
 and it should be set to 5.

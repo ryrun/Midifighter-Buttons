@@ -43,11 +43,11 @@ function set_midifighter_buttons()
 end
 
 renoise.tool():add_menu_entry {
-   name = "--- Main Menu:Tools:Set midifighter button leds ...",
+   name = "--- Main Menu:Tools:Set midifighter button led ...",
    invoke = function() set_midifighter_buttons() end
                               }
 
 renoise.tool():add_keybinding {
-   name = "Global:Midifighter:Set button leds ...",
+   name = "Global:Midifighter:Set button led ...",
    invoke = function() set_midifighter_buttons() end
                               }
