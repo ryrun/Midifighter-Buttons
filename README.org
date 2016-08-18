@@ -22,3 +22,5 @@ also create a keyboard shortcut for it.
 
 Please note, the global octave have impact on the incoming midi notes
 and it should be set to 5.
+
+[[file:foto.jpg]]
